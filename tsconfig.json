@@ -1,6 +1,9 @@
 {
   "include": ["src"],
   "compilerOptions": {
-    "outDir": "build"
+    // 컴파일 자바스크립트 파일 저장 위치
+    "outDir": "build",
+    // 어떤 자바스크립트 버전으로 컴파일할지?
+    "target": "ES6"
   }
 }
