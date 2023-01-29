@@ -44,3 +44,10 @@ class Blockchain {
     return this.blocks;
   }
 }
+
+const blockChain = new Blockchain();
+blockChain.addBlock("first one");
+blockChain.addBlock("second one");
+blockChain.addBlock("third one");
+
+console.log(blockChain.getBlocks());
