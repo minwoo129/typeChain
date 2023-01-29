@@ -6,9 +6,10 @@
     // 어떤 자바스크립트 버전으로 컴파일할지?
     "target": "ES6",
     // 목표로 하는 실행환경(자바스크립트 코드가 어디서 동작하는지 알려줌)
-    "lib": ["ES6", "DOM"],
+    "lib": ["ES6"],
     // strict 모드 활성화 여부
     "strict": true,
-    "allowJs": true
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
